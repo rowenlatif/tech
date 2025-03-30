@@ -7,4 +7,6 @@ print(mystery(5) // mystery(3))
 
 What will the output of the following Python code be? What is the time complexity?
 
-Answer: 20
+Answer: 
+Output: 20
+Time Complexity: O(n)
