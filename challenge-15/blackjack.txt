@@ -1,0 +1,47 @@
+Blackjack is a simple card game comprised of a dealer and a player. The player bets X amount of money, and the dealer deals two cards to the player face-up, and two cards to themselves, one face-up and 
+one face-down. The "score" is calculated by adding the numbers on the cards together. For example, if a player has an 8 and a 7, they have a score of 15. 
+
+Any face card has the value of 10.
+An ace has the value of 1 or 11, and can change through the course of betting. 
+Example:
+A 6 = 17 or 7
+A 6 8 = 15
+
+
+After the initial deal, based on their score and the face-up card that the dealer has, the player can decide to "hit", meaning the dealer deals them another card, stand and keep there score, or double down- 
+put up X amount of money again and receive ONLY one more card. If a player receives two cards with the same number, they are allowed to split those cards by putting up another bet of X. 
+Splits must occur with identical cards (splitting two queens is okay, but you may not split a queen and a king despite them having the same value). 
+The player is allowed to hit as many times as they want until they stand. However, if the player goes over a score of 21, they "bust" and lose the game. 
+Once the player stands, the dealer then reveals their face-down card. They hit themselves until they reach a score of 17+ or bust.
+
+Your job is to maximize your chances of winning each hand by deciding what to do in the following scenarios. You must decide to hit, split, stand, or double-down when applicable.
+
+player: 10 7
+dealer: 10
+
+player: 7, 9
+dealer: 10
+
+player: 9, 9
+dealer: 9
+
+player: 7, A
+dealer: A
+
+player: 7, A
+dealer: 5
+
+player: 2, 3
+dealer: 3
+
+player: 2, 2
+dealer: 9
+
+player: 5, 7
+dealer: 4
+
+player: 6, 6
+dealer: 2
+
+player: 4, 5
+dealer: 6

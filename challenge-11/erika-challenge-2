@@ -1,0 +1,94 @@
+Problem Statement:
+-------------------
+Your task is to design a program that processes the given data and produces a single output. 
+The output should be a summary of customer activity based on the data provided.
+There are multiple ways to approach this task, but there’s one correct output.
+The winning team is the one who submits 
+
+Objective: 
+----------
+Design a program that outputs the total number of unique customers who made purchases over a certain threshold 
+and the total amount of money spent by these customers.
+
+The fake data you will work with consists of transactions, and you need to:
+- Identify the unique customers.
+- Calculate the total amount spent by all those customers who made a purchase greater than a specified threshold (answer should be a single number).
+
+---
+
+Fake Data:
+-----------
+Here is the fake transaction data (for customers making purchases):
+
+CustomerName, CustomerID, TransactionAmount, TransactionDate
+Erika, C001, 120.00, 2024-03-01
+Amelia, C002, 75.00, 2024-03-01
+Jules, C003, 180.50, 2024-03-01
+Erika, C001, 90.00, 2024-03-02
+Quinn, C004, 55.00, 2024-03-02
+Amelia, C002, 50.00, 2024-03-02
+Frani, C005, 200.00, 2024-03-03
+Jules, C003, 50.00, 2024-03-03
+Henry, 250.00, 2024-03-03
+Cookies, C007, 300.00, 2024-03-04
+Erika, C001, 110.00, 2024-03-04
+Jules, C003, 220.00, 2024-03-04
+Frani, C005, 125.00, 2024-03-05
+Quinn, C004, 95.00, 2024-03-05
+Amelia, C002, 250.00, 2024-03-05
+Easha, C015, 55.00, 2024-03-08
+Ayla, C009, 90.00, 2024-03-08
+Will, C017, 30.00, 2024-03-09
+Lorelei, C018, 25.00, 2024-03-09
+Kevin, C019, 75.00, 2024-03-09
+Owen, C020, 50.00, 2024-03-10
+Liz, C021, 80.00, 2024-03-10
+
+---
+
+Instructions:
+-------------
+1. Filter the transactions: 
+   - Only consider customers whose **individual transaction** amount is greater than $100.
+   
+2. Track unique customers: 
+   - You must track and only count customers who have made at least one transaction greater than $100.
+
+3. Output Format:
+   - Total number of unique customers who made at least one purchase greater than $100.
+   - Total amount spent by those unique customers (sum of all their transactions).
+
+---
+
+Example Output:
+---------------
+For the provided fake data, you will produce a summary like this (based on the data given):
+
+Unique Customers: _____
+Total Money Spent: _____
+
+---
+
+Things to Consider:
+-------------------
+- Your solution should be flexible, allowing easy modifications if the dataset changes.
+- Multiple approaches can be taken, make sure to brainstorm the best solution that matches your team's strengths before implementing
+- The first and second teams to get the correct answer for unique customers and $$ spent will recieve bonus points, but the winning team is the team 
+  with the best implementation.
+
+---
+
+Judging Criteria:
+-----------------
+- Correctness: Does the program produce the right output?
+- Efficiency: How well does your solution handle this data? Is it scalable to larger datasets?
+- Speed: Did you get your solution to the judges in an effective time manner?
+   - ** First team to submit the right answers will recieve bonus points
+
+---
+
+Good luck! Please call a judge over if you have any questions on the problem or instructions!
+
+
+BO-NUS: build this puzzle and add a screenshot of it completed
+https://www.jigsawplanet.com/?rc=play&pid=37e2c82ba161

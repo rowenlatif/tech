@@ -1,0 +1,5 @@
+You and another trader can either cooperate (both bid conservatively) 
+or compete (aggressively bid). If both cooperate, you each earn $5M. 
+If one competes and the other doesn’t, the aggressive trader earns $8M 
+and the other earns $2M. If both compete, you each earn $3M. 
+What’s the Nash equilibrium?

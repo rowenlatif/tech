@@ -1,0 +1,14 @@
+Case Interview Question: Part One
+
+50/50 Call Volume Split
+
+You are given the following information:
+    • The total number of calls per hour is 2000.
+    • Calls are evenly split between sales and support (50/50 split).
+    • There are two types of employees:
+        ◦ Generalists who handle 10 calls per hour and are paid $10 per hour.
+        ◦ Specialists who handle 25 calls per hour and are paid $20 per hour.
+
+Question:
+    • How many generalists and specialists should be employed to handle the 50/50 call split efficiently?
+

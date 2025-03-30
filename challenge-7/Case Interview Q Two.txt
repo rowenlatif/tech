@@ -1,0 +1,16 @@
+Case Interview Question: Part Two
+
+Mixed Call Volume
+
+You are given the following information:
+    • The total number of calls per hour is 2000.
+    • The mix of sales and support calls can vary, with two possible cases:
+        1 1200 Sales Calls, 800 Support Calls
+        2 800 Sales Calls, 1200 Support Calls
+    • There are two types of employees:
+        1 Generalists who handle 10 calls per hour and are paid $10 per hour.
+        2 Specialists who handle 25 calls per hour and are paid $20 per hour.
+
+Question:
+    • How many generalists and specialists should be employed for each of the two possible call distributions?
+

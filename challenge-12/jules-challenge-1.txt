@@ -1,0 +1,10 @@
+A computer scientist is designing an optimal binary search tree (BST) for a set of sorted keys 
+{10,20,30,40,50}. The cost of searching for a key is proportional to its depth in the tree (root has depth 1, children of the root have depth 2, etc.).
+
+If each key Kᵢ has a search frequency fᵢ given by:
+
+f = {10 : 3, 20 : 5, 30 : 2, 40 : 7, 50 : 1}
+
+What is the optimal BST structure that minimizes the weighted search cost?
+
+Bonus: How does dynamic programming help solve this problem efficiently?

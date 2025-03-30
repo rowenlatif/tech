@@ -1,0 +1,6 @@
+A stock is currently trading at $100. 
+You are a market maker and must quote both a bid (buy) 
+and an ask (sell) price. If your goal is to make a profit 
+from the spread while minimizing risk, how would you set your 
+bid and ask prices?
+
