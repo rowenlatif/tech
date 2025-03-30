@@ -5,5 +5,18 @@ Directions: Reference a standard Chinook database model
 Question: A particular creator is looking for some short audio clips that are dramatic or suspenseful. Give the id, name, and duration (in milliseconds) of any tracks from the “Quick clips” playlist are labeled with the genre of dramatic or suspenseful. 
 
 Part One: Construct a Relational Algebra query
+R1 → σName = ′Quick Clips′​(Playlist)
+R2 → πTrackId​(PlaylistTrack ⋈PlaylistTrack.PlaylistId = R1.PlaylistId ​R1)
+R3 → Track ⋈Track.TrackId = R2.TrackId​ R2
+R4 → σName =′Dramatic′ ∨ Name=′Suspenseful′​(Genre)
+R5 → R3 ⋈R3.GenreId = R4.GenreId​ R4
+Result → πTrackId, Name, Milliseconds​(R5)
 
 Part Two: Construct a SQL query 
+SELECT T.TrackId, T.Name, T.Milliseconds
+FROM Playlist P
+JOIN PlaylistTrack PT ON P.PlaylistId = PT.PlaylistId
+JOIN Track T ON PT.TrackId = T.TrackId
+JOIN Genre G ON T.GenreId = G.GenreId
+WHERE P.Name = 'Quick Clips'
+  AND (G.Name = 'Dramatic' OR G.Name = 'Suspenseful');
